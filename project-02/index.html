@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glassmorphism Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <script src="https://kit.fontawesome.com/a81368914c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left-section">
+
+      <h1 class="neon-title">Contact Us</h1>
+
+      <p class="subtitle">
+        We're here to assist you!  
+        Reach out anytime for support, collaboration, projects,
+        or just to say hello.
+      </p>
+
+      <div class="info-box">
+        <p><i class="fas fa-envelope"></i> fthawerani@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +92 347 246 370</p>
+        <p><i class="fas fa-location-dot"></i> Karachi, Pakistan</p>
+      </div>
+
+      <h3 class="follow-title">Follow Us</h3>
+
+      <!-- SOCIAL ICONS -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/fatima.thawerani/"
+           target="_blank" class="icon facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/_.famaesthetic?igsh=MWZrb2Mza2Z6ZGxreA=="
+           target="_blank" class="icon instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/fatima-thawerani-15b27b296/"
+           target="_blank" class="icon linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/fatimathawerani"
+           target="_blank" class="icon github">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE (FORM) -->
+    <div class="right-section">
+
+      <form id="contactForm">
+        <div class="input-group">
+          <label>Name</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="input-group">
+          <label>Subject</label>
+          <input type="text" id="subject" required />
+        </div>
+
+        <div class="input-group">
+          <label>Message</label>
+          <textarea id="message" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="status"></p>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
